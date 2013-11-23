@@ -29,7 +29,7 @@
     $dir_array = array('public', 'storage', 'backups', 'tmp');
 
     // Languages array
-    $languages_array = array('en', 'fr', 'de', 'it', 'es', 'lt', 'pt-br', 'ru', 'uk', 'hu', 'fa' , 'sk', 'sr-yu');
+    $languages_array = array('en', 'fr', 'de', 'it', 'es', 'lt', 'pl', 'pt-br', 'ru', 'uk', 'hu', 'fa' , 'sk', 'nl', 'sr-yu');
 
     // Select Monstra language
     if (Request::get('language')) {
@@ -166,8 +166,8 @@
             }
 
             .install-languages a {
-                padding-left: 3px;
-                padding-right: 3px;
+                padding-left: 2px;
+                padding-right: 2px;
             }
 
             .language-link img {
