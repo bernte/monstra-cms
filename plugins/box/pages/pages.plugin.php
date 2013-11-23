@@ -4,7 +4,7 @@
  *	Pages plugin
  *
  *	@package Monstra
- *  @subpackage Plugins
+ *              @subpackage Plugins
  *	@author Romanenko Sergey / Awilum
  *	@copyright 2012-2013 Romanenko Sergey / Awilum
  *	@version 1.0.0
