@@ -4,7 +4,7 @@
  *	Pages plugin
  *
  *	@package Monstra
- *              @subpackage Plugins
+ *  @subpackage Plugins
  *	@author Romanenko Sergey / Awilum
  *	@copyright 2012-2013 Romanenko Sergey / Awilum
  *	@version 1.0.0
@@ -476,23 +476,6 @@ class Page extends Pages
         }
     }
 
-    /**
-     * Get only published children pages for requested page.
-     *
-     *  <code>
-     *      echo Page::published();
-     *  </code>
-     *
-     */
-    public static function published()
-    {
-        $pages = Pages::$pages->select('[parent="'.Pages::$requested_page.'"]', 'all');
-
-        // Display view
-        View::factory('box/pages/views/frontend/published_pages')
-                ->assign('pages', $pages)
-                ->display();
-    }
     /**
      * Get page url
      *
